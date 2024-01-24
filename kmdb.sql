@@ -119,7 +119,7 @@
 .print ""
 
 -- The SQL statement for the movies output
--- TODO!
+SELECT movie, rating, studio, year FROM Movies;
 
 -- Prints a header for the cast output
 .print ""
@@ -129,4 +129,4 @@
 
 
 -- The SQL statement for the cast output
--- TODO!
+SELECT actor, character, movie FROM Actors;
